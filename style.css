@@ -35,3 +35,24 @@ h1{
     margin: 300px;
     transform: scale(3,2);
 }
+.objetoAnimado1{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    animation-name: efecto_uno;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+@keyframes efecto_uno{
+    0%{width: 200px;}
+    25%{width: 100px;}
+    50%{width: 300px;
+        background-color: green;
+    }
+    75%{width: 400px;}
+    100%{width: 200px;
+        background-color: greenyellow;
+    }
+}
