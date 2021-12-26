@@ -1,3 +1,15 @@
 h1{
     color: red;
 }
+.gradianteLineal{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom, red, pink);
+    margin-top: 25px;
+}
+.gradianteAngulo{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, blue, lightblue);
+    margin-top: 25px;
+}
